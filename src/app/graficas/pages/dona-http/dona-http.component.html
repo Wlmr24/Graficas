@@ -1,1 +1,15 @@
-<p>dona-http works!</p>
+<h1>Redes sociales mas usadas</h1>
+<hr>
+<!-- 
+<div class="alert alert-info">
+    Cargando informacion...
+</div> -->
+
+<div class="row" #divGrafica>
+    <div class="col">
+        <canvas baseChart [datasets]="doughnutChartData.datasets" 
+                          [type]="doughnutChartType"
+                          [labels]="doughnutChartLabels">
+        </canvas>
+    </div>
+</div>
